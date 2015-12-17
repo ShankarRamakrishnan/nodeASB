@@ -1,0 +1,23 @@
+{
+  "name": "nodeabs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "azure": "^0.10.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShankarRamakrishnan/nodeASB.git"
+  },
+  "author": "Shankar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShankarRamakrishnan/nodeASB/issues"
+  },
+  "homepage": "https://github.com/ShankarRamakrishnan/nodeASB#readme"
+}
