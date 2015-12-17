@@ -29,4 +29,12 @@ serviceBusService.sendQueueMessage('nodeasb', message, function(error){
     }
 });
 
+
+serviceBusService.receiveQueueMessage('nodeasb', function(error, receivedMessage){
+    if(!error){
+        // Message received and deleted
+        console.log(receivedMessage);
+    }
+});
+
 //Endpoint=sb://nodeasb-ns.servicebus.windows.net/;SharedAccessKeyName=Admin;SharedAccessKey=6nEULsQ0Hsa5SzcFnEZutexg53fiI2d6H1PUMac8jw4=
